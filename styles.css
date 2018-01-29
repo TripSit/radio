@@ -1,0 +1,64 @@
+		body
+		{
+		  -moz-background-size:cover;
+		  -o-background-size:cover;
+		  -webkit-background-size:cover;
+		  background:black url('bg.jpg') no-repeat center center fixed;
+		  background-size:cover;
+		  color:white;
+		  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+		  text-shadow:1px 1px 0 black;
+		}
+		
+		.container
+		{
+		  height:500px;
+		  left:50%;
+		  margin-left:-300px;
+		  margin-top:-250px;
+		  position:absolute;
+		  top:50%;
+		  width:600px;
+		}
+		
+		h1
+		{
+		  color:yellow;
+		  text-shadow:7px 7px 5px #ff00cc;
+		}
+		
+		#info
+		{
+		  font-size:13px;
+		  height:90px;
+		  margin-top:30px;
+		}
+		
+		#info,#bighdr
+		{
+		  text-align:center;
+		}
+		
+		#radio,#buttons
+		{
+		  margin-top:20px;
+		}
+		
+		.onair
+		{
+		  background:#fe22ff;
+		  border-radius:3px;
+		  color:yellow;
+		  display:inline;
+		  padding:4px;
+		  width:80px;
+		  clear:both;
+		}
+		
+		#nowplaying 
+		{
+		  background: rgba(10, 10, 10, 0.4);
+		  border-radius: 4px;
+		  padding: 2px 6px;
+		  display:inline-block;
+		}
