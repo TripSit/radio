@@ -33,7 +33,7 @@
 
 
       <div id="buttons"> <p>
-          <a class="btn btn-dark" href="http://radio.tripsit.me:8000/tripradio.m3u">Listen with your local media player!</a> &nbsp;
+          <a class="btn btn-dark" href="http://radio.tripsit.me:8000/tripradio.m3u">Listen with your local media player!</a>
           <a class="btn btn-dark" href="http://chat.tripsit.me/?nick=Listener?#home,#music">Chat with other listeners!</a>
           <a class="btn btn-dark" href="https://wiki.tripsit.me/wiki/Radio"> More info</a>
       </p>

@@ -16,17 +16,12 @@
 		  width:600px;
 		}
 
-		h1
-		{
-		  color:yellow;
-		  text-shadow:7px 7px 5px #ff00cc;
-		}
-
 		#info
 		{
 		  font-size:13px;
 		  height:90px;
 		  margin-top:30px;
+			margin-bottom: 20px;
 		}
 		#logo {
 			width: 600px;
@@ -46,23 +41,21 @@
 			text-align: center;
 		}
 
-		.onair
-		{
-		  background:#343A40;
-		  border-radius:3px;
-		  color:white;
-		  display:inline;
-		  padding:4px;
-		  width:80px;
-		  clear:both;
-		}
 
-		#nowplaying
+
+		.info
 		{
 		  background: #343A40;
 			color: white;
 		  border-radius: 4px;
 		  padding: 2px 6px;
 		  display:inline-block;
-			margin-top: 15px;
-		}
+			margin-bottom: 20px;
+			height: 38px;
+			text-align: center
+			border: 1px solid transparent;
+  	  padding: .375rem .75rem;
+  	  font-size: 1rem;
+	    line-height: 1.5;
+	    border-radius: .25rem;
+}
