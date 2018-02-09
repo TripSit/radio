@@ -72,9 +72,9 @@ class IceCast {
             $this->radio_info['mount_start'] = $temp_array[3];
             $this->radio_info['bit_rate'] = $temp_array[4];
             $this->radio_info['listeners'] = $temp_array[5];
-          //  $this->radio_info['most_listeners'] = $temp_array[6];
-          //  $this->radio_info['genre'] = $temp_array[7];
-          //  $this->radio_info['url'] = $temp_array[8];
+           $this->radio_info['most_listeners'] = $temp_array[6];
+           $this->radio_info['genre'] = $temp_array[7];
+           $this->radio_info['url'] = $temp_array[8];
 
             if(isset($temp_array[9])) {
                 $x = explode(" - ",$temp_array[9]);
