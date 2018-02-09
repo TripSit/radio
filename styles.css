@@ -9,56 +9,53 @@
 		  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
 		  text-shadow:1px 1px 0 black;
 		}
-		
+
 		.container
 		{
-		  height:500px;
-		  left:50%;
-		  margin-left:-300px;
-		  margin-top:-250px;
-		  position:absolute;
-		  top:50%;
+		  margin: 100px auto 0 auto;
 		  width:600px;
 		}
-		
-		h1
-		{
-		  color:yellow;
-		  text-shadow:7px 7px 5px #ff00cc;
-		}
-		
+
 		#info
 		{
 		  font-size:13px;
 		  height:90px;
 		  margin-top:30px;
+			margin-bottom: 20px;
 		}
-		
+		#logo {
+			width: 600px;
+
+		}
+
 		#info,#bighdr
 		{
 		  text-align:center;
 		}
-		
+
 		#radio,#buttons
 		{
 		  margin-top:20px;
 		}
-		
-		.onair
-		{
-		  background:#fe22ff;
-		  border-radius:3px;
-		  color:yellow;
-		  display:inline;
-		  padding:4px;
-		  width:80px;
-		  clear:both;
+		#buttons {
+			text-align: center;
 		}
-		
-		#nowplaying 
+
+
+
+		.info
 		{
-		  background: rgba(10, 10, 10, 0.4);
+		  background: #343A40;
+			color: white;
 		  border-radius: 4px;
 		  padding: 2px 6px;
 		  display:inline-block;
-		}
+			margin-bottom: 20px;
+			height: 38px;
+			text-align: center
+			border: 1px solid transparent;
+  	  padding: .375rem .75rem;
+  	  font-size: 1rem;
+	    line-height: 1.5;
+	    border-radius: .25rem;
+}

@@ -6,7 +6,7 @@ class IceCast {
     var $radio_info=array();
 
     function __construct() {
-        //build array to store our radio stats for later use        
+        //build array to store our radio stats for later use
         $this->radio_info['server'] = $this->server;
         $this->radio_info['title'] = 'Offline';
         $this->radio_info['description'] = 'Radio offline';
@@ -72,9 +72,9 @@ class IceCast {
             $this->radio_info['mount_start'] = $temp_array[3];
             $this->radio_info['bit_rate'] = $temp_array[4];
             $this->radio_info['listeners'] = $temp_array[5];
-            $this->radio_info['most_listeners'] = $temp_array[6];
-            $this->radio_info['genre'] = $temp_array[7];
-            $this->radio_info['url'] = $temp_array[8];
+           $this->radio_info['most_listeners'] = $temp_array[6];
+           $this->radio_info['genre'] = $temp_array[7];
+           $this->radio_info['url'] = $temp_array[8];
 
             if(isset($temp_array[9])) {
                 $x = explode(" - ",$temp_array[9]);
@@ -97,12 +97,12 @@ $listeners = intval($icecast->radio_info['listeners']);
 
 <?php if ($icecast->radio_info['description'] != "Radio offline"): ?>
 
-	<h4 class="onair">&#9654; On Air / <?=$icecast->radio_info['description']?> listeners</h4> <br />
+	<p class="info">&#9654; On Air / <?=$icecast->radio_info['description']?> listeners</p> <br />
 
-		<p style="margin-top:15px;" id="nowplaying">
+		<p class="info">
 			Now playing: <?=$icecast->radio_info['listeners']?>
-			
+
 		</p>
 <?php else: ?>
-	<h4>Stream offline</h4>
+	<h4 class="info">Stream offline</h4>
 <?php endif; ?>
